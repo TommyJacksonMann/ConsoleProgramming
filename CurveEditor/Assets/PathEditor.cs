@@ -119,6 +119,9 @@ public class PathEditor : Editor
                 HandleUtility.Repaint();
             }
         }
+
+        HandleUtility.AddDefaultControl(0);
+
     }
 
     void Draw()
