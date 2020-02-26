@@ -22,6 +22,7 @@ public class RoadCreator : MonoBehaviour
     Mesh CreateRoadMesh(Vector2[] points, bool isClosed)
     {
         Vector3[] verts = new Vector3[points.Length * 2];
+        Vector2[] uvs = new Vector2[verts.Length];
         int numTris = 2 * (points.Length - 1) + ((isClosed) ? 2 : 0);
         int[] tris = new int[numTris * 3];
         int vertIndex = 0;
@@ -44,7 +45,12 @@ public class RoadCreator : MonoBehaviour
             verts[vertIndex] = points[i] + left * roadWidth * .5f;
             verts[vertIndex + 1] = points[i] - left * roadWidth * .5f;
 
-            if(i < points.Length -1 || isClosed)
+            float completionPercent = i / (float)(points.Length - 1);
+            uvs[vertIndex] = new Vector2(0, completionPercent);
+            uvs[vertIndex + 1] = new Vector2(1, completionPercent);
+
+
+            if (i < points.Length -1 || isClosed)
             {
                 tris[triIndex] = vertIndex;
                 tris[triIndex + 1] = (vertIndex + 2) % verts.Length;
@@ -62,6 +68,7 @@ public class RoadCreator : MonoBehaviour
         Mesh mesh = new Mesh();
         mesh.vertices = verts;
         mesh.triangles = tris;
+        mesh.uv = uvs;
 
         return mesh;
     }
