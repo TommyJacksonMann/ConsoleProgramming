@@ -1,0 +1,6125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 1
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+  m_LightingDataAsset: {fileID: 112000000, guid: 8c32791ad00e56144b2b7028825f0257,
+    type: 2}
+  m_UseShadowmask: 1
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &10448319
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 10448323}
+  - component: {fileID: 10448322}
+  - component: {fileID: 10448321}
+  - component: {fileID: 10448320}
+  m_Layer: 0
+  m_Name: Cube(Clone)
+  m_TagString: BuildingPiece
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &10448320
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10448319}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &10448321
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10448319}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 545f163aa4e1fa043a217456e0adcd59, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &10448322
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10448319}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &10448323
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10448319}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.5, y: 0.5, z: 2.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &45589343
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 45589347}
+  - component: {fileID: 45589346}
+  - component: {fileID: 45589345}
+  - component: {fileID: 45589344}
+  m_Layer: 0
+  m_Name: Cube(Clone)
+  m_TagString: BuildingPiece
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &45589344
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 45589343}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &45589345
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 45589343}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 545f163aa4e1fa043a217456e0adcd59, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &45589346
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 45589343}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &45589347
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 45589343}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.5, y: 1.5, z: 3.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 26
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &149520787
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 149520791}
+  - component: {fileID: 149520790}
+  - component: {fileID: 149520789}
+  - component: {fileID: 149520788}
+  m_Layer: 0
+  m_Name: Cube(Clone)
+  m_TagString: BuildingPiece
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &149520788
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 149520787}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &149520789
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 149520787}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 545f163aa4e1fa043a217456e0adcd59, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &149520790
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 149520787}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &149520791
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 149520787}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.5, y: 0.5, z: 3.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 27
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &193695603
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 193695607}
+  - component: {fileID: 193695606}
+  - component: {fileID: 193695605}
+  - component: {fileID: 193695604}
+  m_Layer: 0
+  m_Name: Cube(Clone)
+  m_TagString: BuildingPiece
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &193695604
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193695603}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &193695605
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193695603}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 545f163aa4e1fa043a217456e0adcd59, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &193695606
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193695603}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &193695607
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193695603}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.5, y: 0.5, z: 3.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 25
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &264426598
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 264426602}
+  - component: {fileID: 264426601}
+  - component: {fileID: 264426600}
+  - component: {fileID: 264426599}
+  m_Layer: 0
+  m_Name: Cube(Clone)
+  m_TagString: BuildingPiece
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &264426599
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 264426598}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &264426600
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 264426598}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 545f163aa4e1fa043a217456e0adcd59, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &264426601
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 264426598}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &264426602
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 264426598}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.5, y: 0.5, z: 2.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &507133584
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 507133588}
+  - component: {fileID: 507133587}
+  - component: {fileID: 507133586}
+  - component: {fileID: 507133585}
+  m_Layer: 0
+  m_Name: Cube(Clone)
+  m_TagString: BuildingPiece
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &507133585
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507133584}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &507133586
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507133584}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 545f163aa4e1fa043a217456e0adcd59, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &507133587
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507133584}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &507133588
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507133584}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.5, y: 3.5, z: 5.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 38
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &567919782
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 567919786}
+  - component: {fileID: 567919785}
+  - component: {fileID: 567919784}
+  - component: {fileID: 567919783}
+  m_Layer: 0
+  m_Name: Cube(Clone)
+  m_TagString: BuildingPiece
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &567919783
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567919782}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &567919784
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567919782}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 545f163aa4e1fa043a217456e0adcd59, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &567919785
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567919782}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &567919786
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567919782}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.5, y: 1.5, z: 2.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 24
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &570432246
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 570432250}
+  - component: {fileID: 570432249}
+  - component: {fileID: 570432248}
+  - component: {fileID: 570432247}
+  m_Layer: 0
+  m_Name: Cube(Clone)
+  m_TagString: BuildingPiece
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &570432247
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570432246}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &570432248
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570432246}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 545f163aa4e1fa043a217456e0adcd59, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &570432249
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570432246}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &570432250
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570432246}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.5, y: 1.5, z: 2.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 29
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &628779573
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 628779577}
+  - component: {fileID: 628779576}
+  - component: {fileID: 628779575}
+  - component: {fileID: 628779574}
+  m_Layer: 0
+  m_Name: Cube(Clone)
+  m_TagString: BuildingPiece
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &628779574
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628779573}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &628779575
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628779573}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 545f163aa4e1fa043a217456e0adcd59, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &628779576
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628779573}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &628779577
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628779573}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.5, y: 0.5, z: 1.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &709175500
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 709175504}
+  - component: {fileID: 709175503}
+  - component: {fileID: 709175502}
+  - component: {fileID: 709175501}
+  m_Layer: 0
+  m_Name: Cube(Clone)
+  m_TagString: BuildingPiece
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &709175501
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709175500}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &709175502
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709175500}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 545f163aa4e1fa043a217456e0adcd59, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &709175503
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709175500}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &709175504
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709175500}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &750418746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 750418750}
+  - component: {fileID: 750418749}
+  - component: {fileID: 750418748}
+  - component: {fileID: 750418747}
+  m_Layer: 0
+  m_Name: Cube(Clone)
+  m_TagString: BuildingPiece
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &750418747
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750418746}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &750418748
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750418746}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 545f163aa4e1fa043a217456e0adcd59, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &750418749
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750418746}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &750418750
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750418746}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.5, y: 0.5, z: 1.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &768727015
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 768727019}
+  - component: {fileID: 768727018}
+  - component: {fileID: 768727017}
+  - component: {fileID: 768727016}
+  m_Layer: 0
+  m_Name: Cube(Clone)
+  m_TagString: BuildingPiece
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &768727016
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768727015}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &768727017
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768727015}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 545f163aa4e1fa043a217456e0adcd59, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &768727018
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768727015}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &768727019
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768727015}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.5, y: 0.5, z: 5.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 33
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &780082020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 780082024}
+  - component: {fileID: 780082023}
+  - component: {fileID: 780082022}
+  - component: {fileID: 780082021}
+  m_Layer: 0
+  m_Name: Cube(Clone)
+  m_TagString: BuildingPiece
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &780082021
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 780082020}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &780082022
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 780082020}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 545f163aa4e1fa043a217456e0adcd59, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &780082023
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 780082020}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &780082024
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 780082020}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.5, y: 1.5, z: 2.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &788357931
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 788357934}
+  - component: {fileID: 788357933}
+  - component: {fileID: 788357932}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &788357932
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 788357931}
+  m_Enabled: 1
+--- !u!20 &788357933
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 788357931}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &788357934
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 788357931}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &789423785
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 789423787}
+  - component: {fileID: 789423786}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &789423786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789423785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4c5f88fb3e7e0944acaa40a3ce8f2e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  building:
+    buildingPieces:
+    - {fileID: 1760266429}
+    - {fileID: 1912475721}
+    - {fileID: 1746464065}
+    - {fileID: 1489426233}
+    - {fileID: 628779573}
+    - {fileID: 750418746}
+    - {fileID: 10448319}
+    - {fileID: 1571834238}
+    - {fileID: 1060865208}
+    - {fileID: 2099778288}
+    - {fileID: 264426598}
+    - {fileID: 1867568394}
+    - {fileID: 780082020}
+    - {fileID: 1918201639}
+    - {fileID: 1944993295}
+    - {fileID: 1703940146}
+    - {fileID: 1565412325}
+    - {fileID: 709175500}
+    - {fileID: 1116498280}
+    - {fileID: 1788362840}
+    - {fileID: 567919782}
+    - {fileID: 193695603}
+    - {fileID: 45589343}
+    - {fileID: 149520787}
+    - {fileID: 1655691436}
+    - {fileID: 570432246}
+    - {fileID: 1843359561}
+    - {fileID: 1987660277}
+    - {fileID: 1390447771}
+    - {fileID: 768727015}
+    - {fileID: 1014588533}
+    - {fileID: 2017828324}
+    - {fileID: 923812224}
+    - {fileID: 905728127}
+    - {fileID: 507133584}
+    normalPiece: {fileID: 0}
+    edgePiece: {fileID: 0}
+    doubleEdgePiece: {fileID: 0}
+  grid:
+    Spacing: 1
+    Width: 10
+    Height: 10
+    Depth: 10
+  availableNodes:
+  - Position: {x: 0.5, y: 0.5, z: 0.5}
+    type: 0
+  - Position: {x: 0.5, y: 0.5, z: 1.5}
+    type: 0
+  - Position: {x: 0.5, y: 0.5, z: 2.5}
+    type: 0
+  - Position: {x: 0.5, y: 0.5, z: 3.5}
+    type: 0
+  - Position: {x: 0.5, y: 0.5, z: 4.5}
+    type: 0
+  - Position: {x: 0.5, y: 0.5, z: 5.5}
+    type: 0
+  - Position: {x: 0.5, y: 0.5, z: 6.5}
+    type: 0
+  - Position: {x: 0.5, y: 0.5, z: 7.5}
+    type: 0
+  - Position: {x: 0.5, y: 0.5, z: 8.5}
+    type: 0
+  - Position: {x: 0.5, y: 0.5, z: 9.5}
+    type: 0
+  - Position: {x: 1.5, y: 0.5, z: 0.5}
+    type: 0
+  - Position: {x: 1.5, y: 0.5, z: 1.5}
+    type: 0
+  - Position: {x: 1.5, y: 0.5, z: 2.5}
+    type: 0
+  - Position: {x: 1.5, y: 0.5, z: 3.5}
+    type: 0
+  - Position: {x: 1.5, y: 0.5, z: 4.5}
+    type: 0
+  - Position: {x: 1.5, y: 0.5, z: 5.5}
+    type: 0
+  - Position: {x: 1.5, y: 0.5, z: 6.5}
+    type: 0
+  - Position: {x: 1.5, y: 0.5, z: 7.5}
+    type: 0
+  - Position: {x: 1.5, y: 0.5, z: 8.5}
+    type: 0
+  - Position: {x: 1.5, y: 0.5, z: 9.5}
+    type: 0
+  - Position: {x: 2.5, y: 0.5, z: 3.5}
+    type: 0
+  - Position: {x: 2.5, y: 0.5, z: 4.5}
+    type: 0
+  - Position: {x: 2.5, y: 0.5, z: 5.5}
+    type: 0
+  - Position: {x: 2.5, y: 0.5, z: 6.5}
+    type: 0
+  - Position: {x: 2.5, y: 0.5, z: 7.5}
+    type: 0
+  - Position: {x: 2.5, y: 0.5, z: 8.5}
+    type: 0
+  - Position: {x: 2.5, y: 0.5, z: 9.5}
+    type: 0
+  - Position: {x: 2.5, y: 2.5, z: 1.5}
+    type: 0
+  - Position: {x: 2.5, y: 2.5, z: 2.5}
+    type: 0
+  - Position: {x: 2.5, y: 3.5, z: 0.5}
+    type: 0
+  - Position: {x: 3.5, y: 0.5, z: 0.5}
+    type: 0
+  - Position: {x: 3.5, y: 0.5, z: 4.5}
+    type: 0
+  - Position: {x: 3.5, y: 0.5, z: 5.5}
+    type: 0
+  - Position: {x: 3.5, y: 0.5, z: 6.5}
+    type: 0
+  - Position: {x: 3.5, y: 0.5, z: 7.5}
+    type: 0
+  - Position: {x: 3.5, y: 0.5, z: 8.5}
+    type: 0
+  - Position: {x: 3.5, y: 0.5, z: 9.5}
+    type: 0
+  - Position: {x: 3.5, y: 2.5, z: 1.5}
+    type: 0
+  - Position: {x: 3.5, y: 2.5, z: 2.5}
+    type: 0
+  - Position: {x: 3.5, y: 2.5, z: 3.5}
+    type: 0
+  - Position: {x: 4.5, y: 0.5, z: 0.5}
+    type: 0
+  - Position: {x: 4.5, y: 0.5, z: 4.5}
+    type: 0
+  - Position: {x: 4.5, y: 0.5, z: 6.5}
+    type: 0
+  - Position: {x: 4.5, y: 0.5, z: 7.5}
+    type: 0
+  - Position: {x: 4.5, y: 0.5, z: 8.5}
+    type: 0
+  - Position: {x: 4.5, y: 0.5, z: 9.5}
+    type: 0
+  - Position: {x: 4.5, y: 1.5, z: 2.5}
+    type: 0
+  - Position: {x: 4.5, y: 1.5, z: 3.5}
+    type: 0
+  - Position: {x: 4.5, y: 2.5, z: 1.5}
+    type: 0
+  - Position: {x: 4.5, y: 2.5, z: 5.5}
+    type: 0
+  - Position: {x: 4.5, y: 4.5, z: 5.5}
+    type: 0
+  - Position: {x: 5.5, y: 0.5, z: 0.5}
+    type: 0
+  - Position: {x: 5.5, y: 0.5, z: 4.5}
+    type: 0
+  - Position: {x: 5.5, y: 0.5, z: 6.5}
+    type: 0
+  - Position: {x: 5.5, y: 0.5, z: 7.5}
+    type: 0
+  - Position: {x: 5.5, y: 0.5, z: 8.5}
+    type: 0
+  - Position: {x: 5.5, y: 0.5, z: 9.5}
+    type: 0
+  - Position: {x: 5.5, y: 1.5, z: 3.5}
+    type: 0
+  - Position: {x: 5.5, y: 2.5, z: 1.5}
+    type: 0
+  - Position: {x: 5.5, y: 2.5, z: 2.5}
+    type: 0
+  - Position: {x: 5.5, y: 2.5, z: 5.5}
+    type: 0
+  - Position: {x: 5.5, y: 4.5, z: 5.5}
+    type: 0
+  - Position: {x: 6.5, y: 0.5, z: 0.5}
+    type: 0
+  - Position: {x: 6.5, y: 0.5, z: 3.5}
+    type: 0
+  - Position: {x: 6.5, y: 0.5, z: 4.5}
+    type: 0
+  - Position: {x: 6.5, y: 0.5, z: 5.5}
+    type: 0
+  - Position: {x: 6.5, y: 0.5, z: 6.5}
+    type: 0
+  - Position: {x: 6.5, y: 0.5, z: 7.5}
+    type: 0
+  - Position: {x: 6.5, y: 0.5, z: 8.5}
+    type: 0
+  - Position: {x: 6.5, y: 0.5, z: 9.5}
+    type: 0
+  - Position: {x: 6.5, y: 2.5, z: 1.5}
+    type: 0
+  - Position: {x: 6.5, y: 2.5, z: 2.5}
+    type: 0
+  - Position: {x: 7.5, y: 0.5, z: 0.5}
+    type: 0
+  - Position: {x: 7.5, y: 0.5, z: 3.5}
+    type: 0
+  - Position: {x: 7.5, y: 0.5, z: 4.5}
+    type: 0
+  - Position: {x: 7.5, y: 0.5, z: 5.5}
+    type: 0
+  - Position: {x: 7.5, y: 0.5, z: 6.5}
+    type: 0
+  - Position: {x: 7.5, y: 0.5, z: 7.5}
+    type: 0
+  - Position: {x: 7.5, y: 0.5, z: 8.5}
+    type: 0
+  - Position: {x: 7.5, y: 0.5, z: 9.5}
+    type: 0
+  - Position: {x: 7.5, y: 1.5, z: 1.5}
+    type: 0
+  - Position: {x: 7.5, y: 2.5, z: 2.5}
+    type: 0
+  - Position: {x: 8.5, y: 0.5, z: 0.5}
+    type: 0
+  - Position: {x: 8.5, y: 0.5, z: 1.5}
+    type: 0
+  - Position: {x: 8.5, y: 0.5, z: 2.5}
+    type: 0
+  - Position: {x: 8.5, y: 0.5, z: 3.5}
+    type: 0
+  - Position: {x: 8.5, y: 0.5, z: 4.5}
+    type: 0
+  - Position: {x: 8.5, y: 0.5, z: 5.5}
+    type: 0
+  - Position: {x: 8.5, y: 0.5, z: 6.5}
+    type: 0
+  - Position: {x: 8.5, y: 0.5, z: 7.5}
+    type: 0
+  - Position: {x: 8.5, y: 0.5, z: 8.5}
+    type: 0
+  - Position: {x: 8.5, y: 0.5, z: 9.5}
+    type: 0
+  - Position: {x: 9.5, y: 0.5, z: 0.5}
+    type: 0
+  - Position: {x: 9.5, y: 0.5, z: 1.5}
+    type: 0
+  - Position: {x: 9.5, y: 0.5, z: 2.5}
+    type: 0
+  - Position: {x: 9.5, y: 0.5, z: 3.5}
+    type: 0
+  - Position: {x: 9.5, y: 0.5, z: 4.5}
+    type: 0
+  - Position: {x: 9.5, y: 0.5, z: 5.5}
+    type: 0
+  - Position: {x: 9.5, y: 0.5, z: 6.5}
+    type: 0
+  - Position: {x: 9.5, y: 0.5, z: 7.5}
+    type: 0
+  - Position: {x: 9.5, y: 0.5, z: 8.5}
+    type: 0
+  - Position: {x: 9.5, y: 0.5, z: 9.5}
+    type: 0
+  closedNodes:
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 2.5, z: 0.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 2.5, z: 0.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 2.5, z: 0.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 2.5, z: 0.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 2.5, z: 0.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 2.5, z: 0.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 2.5, z: 0.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 2.5, z: 0.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 2.5, z: 0.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 2.5, z: 0.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 2.5, z: 0.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 2.5, z: 0.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 2.5}
+    type: 0
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 2.5, z: 0.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 2.5, z: 0.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 2.5, z: 0.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 6.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 2.5, z: 0.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 6.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 2.5, z: 0.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 6.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 2.5, z: 0.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 6.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 2.5, z: 0.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 5.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 6.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 2.5, z: 0.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 5.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 5.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 6.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 2.5, z: 0.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 5.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 5.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 5.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 6.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 2.5, z: 0.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 5.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 5.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 5.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 5.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 6.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 2.5, z: 0.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 5.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 5.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 5.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 5.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 6.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 2.5, z: 0.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 5.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 5.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 5.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 5.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 6.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 2.5, z: 0.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 5.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 5.5}
+    type: 1
+  - Position: {x: 4.5, y: 2.5, z: 5.5}
+    type: 0
+  - Position: {x: 4.5, y: 3.5, z: 5.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 5.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 5.5}
+    type: 1
+  - Position: {x: 5.5, y: 2.5, z: 5.5}
+    type: 0
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 6.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 2.5, z: 0.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 5.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 5.5}
+    type: 1
+  - Position: {x: 4.5, y: 2.5, z: 5.5}
+    type: 0
+  - Position: {x: 4.5, y: 3.5, z: 5.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 5.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 5.5}
+    type: 1
+  - Position: {x: 5.5, y: 2.5, z: 5.5}
+    type: 0
+  - Position: {x: 5.5, y: 3.5, z: 5.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 6.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 2.5, z: 0.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 5.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 5.5}
+    type: 1
+  - Position: {x: 4.5, y: 3.5, z: 5.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 5.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 5.5}
+    type: 1
+  - Position: {x: 5.5, y: 2.5, z: 5.5}
+    type: 0
+  - Position: {x: 5.5, y: 3.5, z: 5.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 6.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 0.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 2.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 2.5, y: 2.5, z: 0.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 3.5, y: 1.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 4.5, y: 0.5, z: 5.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 4.5, y: 1.5, z: 5.5}
+    type: 1
+  - Position: {x: 4.5, y: 3.5, z: 5.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 3.5}
+    type: 1
+  - Position: {x: 5.5, y: 0.5, z: 5.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 5.5, y: 1.5, z: 5.5}
+    type: 1
+  - Position: {x: 5.5, y: 3.5, z: 5.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 6.5, y: 1.5, z: 1.5}
+    type: 1
+  - Position: {x: 6.5, y: 1.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 1.5}
+    type: 1
+  - Position: {x: 7.5, y: 0.5, z: 2.5}
+    type: 1
+  - Position: {x: 7.5, y: 1.5, z: 2.5}
+    type: 1
+  normalPiece: {fileID: 0}
+  edgePiece: {fileID: 0}
+  doubleEdgePiece: {fileID: 0}
+--- !u!4 &789423787
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789423785}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &879101815
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 879101817}
+  - component: {fileID: 879101816}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &879101816
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879101815}
+  m_Enabled: 1
+  serializedVersion: 9
+  m_Type: 1
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &879101817
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879101815}
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &905728127
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 905728131}
+  - component: {fileID: 905728130}
+  - component: {fileID: 905728129}
+  - component: {fileID: 905728128}
+  m_Layer: 0
+  m_Name: Cube(Clone)
+  m_TagString: BuildingPiece
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &905728128
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905728127}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &905728129
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905728127}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 545f163aa4e1fa043a217456e0adcd59, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &905728130
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905728127}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &905728131
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905728127}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.5, y: 3.5, z: 5.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 37
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &923812224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 923812228}
+  - component: {fileID: 923812227}
+  - component: {fileID: 923812226}
+  - component: {fileID: 923812225}
+  m_Layer: 0
+  m_Name: Cube(Clone)
+  m_TagString: BuildingPiece
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &923812225
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 923812224}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &923812226
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 923812224}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 545f163aa4e1fa043a217456e0adcd59, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &923812227
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 923812224}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &923812228
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 923812224}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.5, y: 1.5, z: 5.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 36
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1014588533
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1014588537}
+  - component: {fileID: 1014588536}
+  - component: {fileID: 1014588535}
+  - component: {fileID: 1014588534}
+  m_Layer: 0
+  m_Name: Cube(Clone)
+  m_TagString: BuildingPiece
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1014588534
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1014588533}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1014588535
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1014588533}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 545f163aa4e1fa043a217456e0adcd59, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1014588536
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1014588533}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1014588537
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1014588533}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.5, y: 0.5, z: 5.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 34
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1060865208
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1060865212}
+  - component: {fileID: 1060865211}
+  - component: {fileID: 1060865210}
+  - component: {fileID: 1060865209}
+  m_Layer: 0
+  m_Name: Cube(Clone)
+  m_TagString: BuildingPiece
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1060865209
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060865208}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1060865210
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060865208}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 545f163aa4e1fa043a217456e0adcd59, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1060865211
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060865208}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1060865212
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060865208}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.5, y: 0.5, z: 2.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1116498280
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1116498284}
+  - component: {fileID: 1116498283}
+  - component: {fileID: 1116498282}
+  - component: {fileID: 1116498281}
+  m_Layer: 0
+  m_Name: Cube(Clone)
+  m_TagString: BuildingPiece
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1116498281
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1116498280}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1116498282
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1116498280}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 545f163aa4e1fa043a217456e0adcd59, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1116498283
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1116498280}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1116498284
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1116498280}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.5, y: 1.5, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1300799148
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1300799152}
+  - component: {fileID: 1300799151}
+  - component: {fileID: 1300799150}
+  - component: {fileID: 1300799149}
+  m_Layer: 0
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!64 &1300799149
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300799148}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1300799150
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300799148}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9a0c07b241920504997c85155b2bb86e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1300799151
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300799148}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1300799152
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300799148}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5, y: 0, z: 5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1390447771
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1390447775}
+  - component: {fileID: 1390447774}
+  - component: {fileID: 1390447773}
+  - component: {fileID: 1390447772}
+  m_Layer: 0
+  m_Name: Cube(Clone)
+  m_TagString: BuildingPiece
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1390447772
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1390447771}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1390447773
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1390447771}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 545f163aa4e1fa043a217456e0adcd59, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1390447774
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1390447771}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1390447775
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1390447771}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.5, y: 0.5, z: 3.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 32
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1489426233
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1489426237}
+  - component: {fileID: 1489426236}
+  - component: {fileID: 1489426235}
+  - component: {fileID: 1489426234}
+  m_Layer: 0
+  m_Name: Cube(Clone)
+  m_TagString: BuildingPiece
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1489426234
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489426233}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1489426235
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489426233}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 545f163aa4e1fa043a217456e0adcd59, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1489426236
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489426233}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1489426237
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489426233}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.5, y: 0.5, z: 1.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1565412325
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1565412329}
+  - component: {fileID: 1565412328}
+  - component: {fileID: 1565412327}
+  - component: {fileID: 1565412326}
+  m_Layer: 0
+  m_Name: Cube(Clone)
+  m_TagString: BuildingPiece
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1565412326
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565412325}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1565412327
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565412325}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 545f163aa4e1fa043a217456e0adcd59, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1565412328
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565412325}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1565412329
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565412325}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.5, y: 1.5, z: 1.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1571834238
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1571834242}
+  - component: {fileID: 1571834241}
+  - component: {fileID: 1571834240}
+  - component: {fileID: 1571834239}
+  m_Layer: 0
+  m_Name: Cube(Clone)
+  m_TagString: BuildingPiece
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1571834239
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571834238}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1571834240
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571834238}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 545f163aa4e1fa043a217456e0adcd59, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1571834241
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571834238}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1571834242
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571834238}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.5, y: 0.5, z: 2.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1655691436
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1655691440}
+  - component: {fileID: 1655691439}
+  - component: {fileID: 1655691438}
+  - component: {fileID: 1655691437}
+  m_Layer: 0
+  m_Name: Cube(Clone)
+  m_TagString: BuildingPiece
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1655691437
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655691436}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1655691438
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655691436}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 545f163aa4e1fa043a217456e0adcd59, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1655691439
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655691436}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1655691440
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655691436}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.5, y: 1.5, z: 2.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 28
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1703940146
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1703940150}
+  - component: {fileID: 1703940149}
+  - component: {fileID: 1703940148}
+  - component: {fileID: 1703940147}
+  m_Layer: 0
+  m_Name: Cube(Clone)
+  m_TagString: BuildingPiece
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1703940147
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703940146}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1703940148
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703940146}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 545f163aa4e1fa043a217456e0adcd59, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1703940149
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703940146}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1703940150
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703940146}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.5, y: 1.5, z: 1.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1746464065
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1746464069}
+  - component: {fileID: 1746464068}
+  - component: {fileID: 1746464067}
+  - component: {fileID: 1746464066}
+  m_Layer: 0
+  m_Name: Cube(Clone)
+  m_TagString: BuildingPiece
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1746464066
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746464065}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1746464067
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746464065}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 545f163aa4e1fa043a217456e0adcd59, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1746464068
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746464065}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1746464069
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746464065}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.5, y: 0.5, z: 1.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1760266429
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1760266433}
+  - component: {fileID: 1760266432}
+  - component: {fileID: 1760266431}
+  - component: {fileID: 1760266430}
+  m_Layer: 0
+  m_Name: Cube(Clone)
+  m_TagString: BuildingPiece
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1760266430
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760266429}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1760266431
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760266429}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 545f163aa4e1fa043a217456e0adcd59, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1760266432
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760266429}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1760266433
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760266429}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.5, y: 0.5, z: 1.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1788362840
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1788362844}
+  - component: {fileID: 1788362843}
+  - component: {fileID: 1788362842}
+  - component: {fileID: 1788362841}
+  m_Layer: 0
+  m_Name: Cube(Clone)
+  m_TagString: BuildingPiece
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1788362841
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788362840}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1788362842
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788362840}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 545f163aa4e1fa043a217456e0adcd59, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1788362843
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788362840}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1788362844
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788362840}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.5, y: 2.5, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1843359561
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1843359565}
+  - component: {fileID: 1843359564}
+  - component: {fileID: 1843359563}
+  - component: {fileID: 1843359562}
+  m_Layer: 0
+  m_Name: Cube(Clone)
+  m_TagString: BuildingPiece
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1843359562
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843359561}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1843359563
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843359561}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 545f163aa4e1fa043a217456e0adcd59, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1843359564
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843359561}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1843359565
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843359561}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.5, y: 1.5, z: 2.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 30
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1867568394
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1867568398}
+  - component: {fileID: 1867568397}
+  - component: {fileID: 1867568396}
+  - component: {fileID: 1867568395}
+  m_Layer: 0
+  m_Name: Cube(Clone)
+  m_TagString: BuildingPiece
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1867568395
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867568394}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1867568396
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867568394}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 545f163aa4e1fa043a217456e0adcd59, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1867568397
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867568394}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1867568398
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867568394}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.5, y: 0.5, z: 2.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1912475721
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1912475725}
+  - component: {fileID: 1912475724}
+  - component: {fileID: 1912475723}
+  - component: {fileID: 1912475722}
+  m_Layer: 0
+  m_Name: Cube(Clone)
+  m_TagString: BuildingPiece
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1912475722
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912475721}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1912475723
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912475721}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 545f163aa4e1fa043a217456e0adcd59, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1912475724
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912475721}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1912475725
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912475721}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.5, y: 0.5, z: 1.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1918201639
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1918201643}
+  - component: {fileID: 1918201642}
+  - component: {fileID: 1918201641}
+  - component: {fileID: 1918201640}
+  m_Layer: 0
+  m_Name: Cube(Clone)
+  m_TagString: BuildingPiece
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1918201640
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918201639}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1918201641
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918201639}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 545f163aa4e1fa043a217456e0adcd59, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1918201642
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918201639}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1918201643
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918201639}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.5, y: 1.5, z: 1.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1944993295
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1944993299}
+  - component: {fileID: 1944993298}
+  - component: {fileID: 1944993297}
+  - component: {fileID: 1944993296}
+  m_Layer: 0
+  m_Name: Cube(Clone)
+  m_TagString: BuildingPiece
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1944993296
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944993295}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1944993297
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944993295}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 545f163aa4e1fa043a217456e0adcd59, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1944993298
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944993295}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1944993299
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944993295}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.5, y: 1.5, z: 1.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1987660277
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1987660281}
+  - component: {fileID: 1987660280}
+  - component: {fileID: 1987660279}
+  - component: {fileID: 1987660278}
+  m_Layer: 0
+  m_Name: Cube(Clone)
+  m_TagString: BuildingPiece
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1987660278
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987660277}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1987660279
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987660277}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 545f163aa4e1fa043a217456e0adcd59, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1987660280
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987660277}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1987660281
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987660277}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.5, y: 1.5, z: 1.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 31
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2017828324
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2017828328}
+  - component: {fileID: 2017828327}
+  - component: {fileID: 2017828326}
+  - component: {fileID: 2017828325}
+  m_Layer: 0
+  m_Name: Cube(Clone)
+  m_TagString: BuildingPiece
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &2017828325
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017828324}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &2017828326
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017828324}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 545f163aa4e1fa043a217456e0adcd59, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &2017828327
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017828324}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &2017828328
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017828324}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.5, y: 1.5, z: 5.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 35
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2099778288
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2099778292}
+  - component: {fileID: 2099778291}
+  - component: {fileID: 2099778290}
+  - component: {fileID: 2099778289}
+  m_Layer: 0
+  m_Name: Cube(Clone)
+  m_TagString: BuildingPiece
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &2099778289
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099778288}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &2099778290
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099778288}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 545f163aa4e1fa043a217456e0adcd59, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &2099778291
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099778288}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &2099778292
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099778288}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.5, y: 0.5, z: 2.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
