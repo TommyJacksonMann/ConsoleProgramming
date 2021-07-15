@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
+[System.Serializable]
 public class NavMesh
 {
-    [SerializeField, HideInInspector]
+    [SerializeField]
     public List<Vector3> points;
 
     float verticalOffsetFromGround = .1f;
@@ -49,6 +50,6 @@ public class NavMesh
 
     public void MovePoint(int index, Vector3 position)
     {
-
+        points[index] = position;
     }
 }

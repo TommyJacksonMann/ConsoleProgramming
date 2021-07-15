@@ -8,6 +8,8 @@ public class NavMeshEditor : Editor
 {
     NavMeshCreator creator;
 
+    Vector3 testPoint = Vector3.zero;
+
     NavMesh NavMesh
     {
         get
@@ -26,13 +28,18 @@ public class NavMeshEditor : Editor
             creator.CreateNavMesh();
             SceneView.RepaintAll();
         }
+
+        if (EditorGUI.EndChangeCheck())
+        {
+            SceneView.RepaintAll();
+        }
     }
 
     private void OnSceneGUI()
     {
         if (Event.current.type == EventType.Repaint)
         {
-            creator.UpdateMesh(NavMesh.points);
+            //creator.UpdateMesh(NavMesh.points);
         }
         Draw();
         Input();
@@ -45,15 +52,17 @@ public class NavMeshEditor : Editor
 
     void Draw()
     {
-        for (int i = 0; i < creator.navMesh.points.Count; i++)
+        
+        for (int i = 0; i < NavMesh.points.Count; i++)
         {
             Handles.color = creator.PointColor;
             float handleSize = creator.PointSize;
-            Vector3 newPos = Handles.FreeMoveHandle(creator.navMesh.points[i], Quaternion.identity, handleSize, Vector3.zero, Handles.CylinderHandleCap);
-            if (creator.navMesh.points[i] != newPos)
+            Vector3 newPos = Handles.FreeMoveHandle(NavMesh.points[i] + creator.transform.position, Quaternion.identity, handleSize, Vector3.zero, Handles.CylinderHandleCap);
+            if (NavMesh.points[i] != newPos - creator.transform.position)
             {
                 Undo.RecordObject(creator, "Move point");
-                creator.navMesh.MovePoint(i, newPos);
+                creator.navMesh.MovePoint(i, newPos - creator.transform.position);
+                creator.UpdateMesh();
             }
         }
     }
@@ -61,5 +70,7 @@ public class NavMeshEditor : Editor
     {
         Event guiEvent = Event.current;
         Vector3 mousePos = HandleUtility.GUIPointToWorldRay(guiEvent.mousePosition).origin;
+
+        HandleUtility.AddDefaultControl(0);
     }
 }
