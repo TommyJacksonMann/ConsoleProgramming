@@ -9,7 +9,8 @@ public class NavMesh
     [SerializeField]
     public List<Vector3> points;
 
-    float verticalOffsetFromGround = .1f;
+    [SerializeField]
+    public float verticalOffsetFromGround = .1f;
 
     public NavMesh(Vector3 center)
     {
