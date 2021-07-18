@@ -29,15 +29,23 @@ public class NavMeshCreator : MonoBehaviour
 
     public void UpdateMesh()
     {
-        Vector3[] verts = new Vector3[navMesh.points.Count];
+        Vector3[] verts = navMesh.PointPositions.ToArray();
         Vector2[] uvs = new Vector2[verts.Length];
-        int[] tris = new int[] { 0, 1, 2 };
-        Vector3[] normals = new Vector3[] { Vector3.up, Vector3.up, Vector3.up };
+        int[] tris = navMesh.Tris.ToArray();
+        Vector3[] normals = new Vector3[navMesh.points.Count];
 
-        verts = navMesh.points.ToArray();
-        uvs[0] = new Vector2(0, 0);
-        uvs[1] = new Vector2(0, 1);
-        uvs[2] = new Vector2(1, 0);
+
+        for(int i = 0; i < navMesh.points.Count; i++)      //********FILL VERTS AND NORMALS***************
+        {
+            normals[i] = Vector3.up;
+
+            uvs[i] = new Vector2(i/ (navMesh.points.Count-1), i / (navMesh.points.Count - 1));
+        }
+        
+        //uvs[0] = new Vector2(0, 0);
+        //uvs[1] = new Vector2(0, .5f);
+        //uvs[2] = new Vector2(.5f, 0);
+        //uvs[2] = new Vector2(1, 1);
 
         Mesh mesh = new Mesh();
         mesh.vertices = verts;
@@ -45,7 +53,6 @@ public class NavMeshCreator : MonoBehaviour
         mesh.uv = uvs;
         mesh.normals = normals;
         
-
         GetComponent<MeshFilter>().mesh = mesh;
     }
 }

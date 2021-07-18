@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,7 +8,13 @@ using UnityEngine;
 public class NavMesh
 {
     [SerializeField]
-    public List<Vector3> points;
+    public List<Point> points;
+
+    public List<Vector3> PointPositions;
+    public List<int> Tris;
+
+    [SerializeField]
+    public List<Tuple<int, int>> Edges;
 
     [SerializeField]
     public float verticalOffsetFromGround = .1f;
@@ -22,12 +29,31 @@ public class NavMesh
             offset.y = -hit.distance + verticalOffsetFromGround;
         }
         
-        points = new List<Vector3>
+        points = new List<Point>
+        {
+            new Point(offset + Vector3.left, 0),
+            new Point(offset + Vector3.forward, 1),
+            new Point(offset + Vector3.right, 2),
+            new Point(offset + Vector3.back, 3) 
+        };
+
+        //points[0].ConnectingPoints.Add(points[1]);
+        //points[0].ConnectingPoints.Add(points[2]);
+        //points[0].ConnectingPoints.Add(points[3]);
+
+        PointPositions = new List<Vector3>
         {
             offset + Vector3.left,
             offset + Vector3.forward,
-            offset + Vector3.right
+            offset + Vector3.right,
+            offset + Vector3.back
         };
+
+        Tris = new List<int> { 0, 1, 2, 2, 3, 0};
+        
+        Edges = new List<Tuple<int, int>> { new Tuple<int, int>(0, 1), new Tuple<int, int>(1, 2), new Tuple<int, int>(2, 0),
+                                             new Tuple<int, int>(2, 3), new Tuple<int, int>(3, 0)};
+
     }
     public int NumPoints
     {
@@ -44,13 +70,18 @@ public class NavMesh
         }
     }
 
-    public void InsertPoint(int index, Vector3 point)
+    public void AddPointEdge(int index1, int index2, Vector3 point)
     {
-        points.Insert(index, point);
+        //points.Insert(index, new Point(point, points.Count));
+
+        PointPositions.Add(point);
+
     }
 
     public void MovePoint(int index, Vector3 position)
     {
-        points[index] = position;
+        points[index].Position = position;
+
+        PointPositions[index] = position;
     }
 }
