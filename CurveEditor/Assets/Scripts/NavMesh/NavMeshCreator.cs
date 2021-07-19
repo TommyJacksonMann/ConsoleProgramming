@@ -32,14 +32,14 @@ public class NavMeshCreator : MonoBehaviour
         Vector3[] verts = navMesh.PointPositions.ToArray();
         Vector2[] uvs = new Vector2[verts.Length];
         int[] tris = navMesh.Tris.ToArray();
-        Vector3[] normals = new Vector3[navMesh.points.Count];
+        Vector3[] normals = new Vector3[navMesh.PointPositions.Count];
 
 
-        for(int i = 0; i < navMesh.points.Count; i++)      //********FILL VERTS AND NORMALS***************
+        for(int i = 0; i < navMesh.PointPositions.Count; i++)      //********FILL VERTS AND NORMALS***************
         {
             normals[i] = Vector3.up;
 
-            uvs[i] = new Vector2(i/ (navMesh.points.Count-1), i / (navMesh.points.Count - 1));
+            uvs[i] = new Vector2(i/ (navMesh.PointPositions.Count-1), i / (navMesh.PointPositions.Count - 1));
         }
         
         //uvs[0] = new Vector2(0, 0);

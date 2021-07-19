@@ -7,8 +7,7 @@ public class NavMeshEditor : Editor
     NavMeshCreator creator;
 
     Event guiEvent;
-    int closestPointIndex1 = -1;
-    int closestPointIndex2 = -1;
+    public Edge closestEdge = null;
 
     Vector3 testPoint = Vector3.zero;
     NavMesh NavMesh
@@ -51,8 +50,8 @@ public class NavMeshEditor : Editor
 
     void Draw()
     {
-        Handles.color = creator.PointHoverColor;
-        testPoint = Handles.FreeMoveHandle(testPoint, Quaternion.identity, creator.PointSize, Vector3.zero, Handles.CylinderHandleCap);
+        //Handles.color = creator.PointHoverColor;
+        //testPoint = Handles.FreeMoveHandle(testPoint, Quaternion.identity, creator.PointSize, Vector3.zero, Handles.CylinderHandleCap);
 
         for (int i = 0; i < NavMesh.PointPositions.Count; i++)
         {
@@ -93,23 +92,22 @@ public class NavMeshEditor : Editor
         if (guiEvent.type == EventType.MouseMove)
         {
             float distanceToLine = 15;
-            
-            closestPointIndex1 = -1;
-            closestPointIndex2 = -1;
-            
+
+            closestEdge = null;
+
+
             for (int i = 0; i < NavMesh.Edges.Count; i++)
             {
                 int triIndex = i * 3;
-                Vector2 point1 = Camera.current.WorldToScreenPoint(NavMesh.PointPositions[NavMesh.Edges[i].Item1] + creator.transform.position);
-                Vector2 point2 = Camera.current.WorldToScreenPoint(NavMesh.PointPositions[NavMesh.Edges[i].Item2] + creator.transform.position);
+                Vector2 point1 = Camera.current.WorldToScreenPoint(NavMesh.PointPositions[NavMesh.Edges[i].index1] + creator.transform.position);
+                Vector2 point2 = Camera.current.WorldToScreenPoint(NavMesh.PointPositions[NavMesh.Edges[i].index2] + creator.transform.position);
             
                 float tempDistance = HandleUtility.DistancePointLine(screenSpaceMousePos, point1, point2);
             
                 if (tempDistance < distanceToLine)
                 {
                     distanceToLine = tempDistance;
-                    closestPointIndex1 = NavMesh.Edges[i].Item1;
-                    closestPointIndex2 = NavMesh.Edges[i].Item2;
+                    closestEdge = NavMesh.Edges[i];
                 }
             
             }
@@ -118,22 +116,24 @@ public class NavMeshEditor : Editor
 
         if (guiEvent.control)
         {
-            if (closestPointIndex1 != -1)
+            if (closestEdge != null)
             {
                 Handles.color = creator.PointHoverColor;
-                Handles.DrawLine(NavMesh.points[closestPointIndex1].Position + creator.transform.position,
-                    NavMesh.points[closestPointIndex2].Position + creator.transform.position);
-                if(guiEvent.button == 0)
+                Handles.DrawLine(NavMesh.PointPositions[closestEdge.index1] + creator.transform.position,
+                    NavMesh.PointPositions[closestEdge.index2] + creator.transform.position);
+                if(guiEvent.type == EventType.MouseDown && guiEvent.button == 0)
                 {
-                    Vector2 point1 = Camera.current.WorldToScreenPoint(NavMesh.PointPositions[closestPointIndex1] + creator.transform.position);
-                    Vector2 point2 = Camera.current.WorldToScreenPoint(NavMesh.PointPositions[closestPointIndex2] + creator.transform.position);
+                    Vector2 point1 = Camera.current.WorldToScreenPoint(NavMesh.PointPositions[closestEdge.index1] + creator.transform.position);
+                    Vector2 point2 = Camera.current.WorldToScreenPoint(NavMesh.PointPositions[closestEdge.index2] + creator.transform.position);
                     Vector2 closestPointScreenSpace = HelperFunctions.FindNearestPointOnLine(point1, point2, screenSpaceMousePos);
 
                     Ray closestPointRay = Camera.current.ScreenPointToRay(closestPointScreenSpace);
 
                     testPoint = HelperFunctions.GetIntersectWithLineAndPlane(closestPointRay.origin, closestPointRay.direction, 
-                                                                Vector3.up, NavMesh.PointPositions[closestPointIndex1] + creator.transform.position);
+                                                                Vector3.up, NavMesh.PointPositions[closestEdge.index1] + creator.transform.position);
 
+                    NavMesh.AddPointEdge(closestEdge.index1, closestEdge.index2, testPoint - creator.transform.position);
+                    creator.UpdateMesh();
 
                     //FOR FINDING THE INTERSECTION OF A LINE TO A PLANE
                     //************** https://www.youtube.com/watch?v=Td9CZGkqrSg**********************

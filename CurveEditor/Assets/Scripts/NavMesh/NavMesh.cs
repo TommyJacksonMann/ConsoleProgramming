@@ -7,14 +7,12 @@ using UnityEngine;
 [System.Serializable]
 public class NavMesh
 {
-    [SerializeField]
-    public List<Point> points;
 
     public List<Vector3> PointPositions;
     public List<int> Tris;
 
     [SerializeField]
-    public List<Tuple<int, int>> Edges;
+    public List<Edge> Edges;
 
     [SerializeField]
     public float verticalOffsetFromGround = .1f;
@@ -28,18 +26,6 @@ public class NavMesh
         {
             offset.y = -hit.distance + verticalOffsetFromGround;
         }
-        
-        points = new List<Point>
-        {
-            new Point(offset + Vector3.left, 0),
-            new Point(offset + Vector3.forward, 1),
-            new Point(offset + Vector3.right, 2),
-            new Point(offset + Vector3.back, 3) 
-        };
-
-        //points[0].ConnectingPoints.Add(points[1]);
-        //points[0].ConnectingPoints.Add(points[2]);
-        //points[0].ConnectingPoints.Add(points[3]);
 
         PointPositions = new List<Vector3>
         {
@@ -51,22 +37,22 @@ public class NavMesh
 
         Tris = new List<int> { 0, 1, 2, 2, 3, 0};
         
-        Edges = new List<Tuple<int, int>> { new Tuple<int, int>(0, 1), new Tuple<int, int>(1, 2), new Tuple<int, int>(2, 0),
-                                             new Tuple<int, int>(2, 3), new Tuple<int, int>(3, 0)};
+        Edges = new List<Edge> { new Edge(0, 1), new Edge(1, 2), new Edge(2, 0),
+                                             new Edge(2, 3), new Edge(3, 0)};
 
     }
     public int NumPoints
     {
         get
         {
-            return points.Count;
+            return PointPositions.Count;
         }
     }
     public int NumFaces
     {
         get
         {
-            return points.Count - 2;
+            return PointPositions.Count - 2;
         }
     }
 
@@ -75,12 +61,16 @@ public class NavMesh
         //points.Insert(index, new Point(point, points.Count));
 
         PointPositions.Add(point);
+        int[] newTri = new int[] { PointPositions.Count - 1, index2, index1};
+        Tris.AddRange(newTri);
 
+        Edges.Add(new Edge(index1, PointPositions.Count - 1));
+        Edges.Add(new Edge(PointPositions.Count - 1, index2));
     }
 
     public void MovePoint(int index, Vector3 position)
     {
-        points[index].Position = position;
+        //points[index].Position = position;
 
         PointPositions[index] = position;
     }
