@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HelperFunctions
+public static class HelperFunctions
 {
     //*********https://stackoverflow.com/questions/51905268/how-to-find-closest-point-on-line************
-    public Vector2 FindNearestPointOnLine(Vector2 origin, Vector2 end, Vector2 point)
+    public static Vector2 FindNearestPointOnLine(Vector2 origin, Vector2 end, Vector2 point)
     {
         //Get heading
         Vector2 heading = (end - origin);
@@ -17,5 +17,12 @@ public class HelperFunctions
         float dotP = Vector2.Dot(lhs, heading);
         dotP = Mathf.Clamp(dotP, 0f, magnitudeMax);
         return origin + heading * dotP;
+    }
+
+    public static Vector3 GetIntersectWithLineAndPlane(Vector3 point, Vector3 direct, Vector3 planeNormal, Vector3 planePoint)
+    {
+        float d = Vector3.Dot(planePoint - point, planeNormal) / Vector3.Dot(direct.normalized, planeNormal);
+        //print(d);
+        return d * direct.normalized + point;
     }
 }

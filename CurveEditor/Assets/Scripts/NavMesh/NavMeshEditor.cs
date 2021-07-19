@@ -1,8 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using UnityEditor;
 using UnityEngine;
-using UnityEditor;
-using UnityEngine.XR;
 
 [CustomEditor(typeof(NavMeshCreator))]
 public class NavMeshEditor : Editor
@@ -13,6 +10,7 @@ public class NavMeshEditor : Editor
     int closestPointIndex1 = -1;
     int closestPointIndex2 = -1;
 
+    Vector3 testPoint = Vector3.zero;
     NavMesh NavMesh
     {
         get
@@ -53,7 +51,9 @@ public class NavMeshEditor : Editor
 
     void Draw()
     {
-        
+        Handles.color = creator.PointHoverColor;
+        testPoint = Handles.FreeMoveHandle(testPoint, Quaternion.identity, creator.PointSize, Vector3.zero, Handles.CylinderHandleCap);
+
         for (int i = 0; i < NavMesh.PointPositions.Count; i++)
         {
             Handles.color = creator.PointColor;
@@ -123,7 +123,21 @@ public class NavMeshEditor : Editor
                 Handles.color = creator.PointHoverColor;
                 Handles.DrawLine(NavMesh.points[closestPointIndex1].Position + creator.transform.position,
                     NavMesh.points[closestPointIndex2].Position + creator.transform.position);
+                if(guiEvent.button == 0)
+                {
+                    Vector2 point1 = Camera.current.WorldToScreenPoint(NavMesh.PointPositions[closestPointIndex1] + creator.transform.position);
+                    Vector2 point2 = Camera.current.WorldToScreenPoint(NavMesh.PointPositions[closestPointIndex2] + creator.transform.position);
+                    Vector2 closestPointScreenSpace = HelperFunctions.FindNearestPointOnLine(point1, point2, screenSpaceMousePos);
 
+                    Ray closestPointRay = Camera.current.ScreenPointToRay(closestPointScreenSpace);
+
+                    testPoint = HelperFunctions.GetIntersectWithLineAndPlane(closestPointRay.origin, closestPointRay.direction, 
+                                                                Vector3.up, NavMesh.PointPositions[closestPointIndex1] + creator.transform.position);
+
+
+                    //FOR FINDING THE INTERSECTION OF A LINE TO A PLANE
+                    //************** https://www.youtube.com/watch?v=Td9CZGkqrSg**********************
+                }
             }
         }
 
