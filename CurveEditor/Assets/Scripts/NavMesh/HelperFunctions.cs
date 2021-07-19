@@ -26,4 +26,18 @@ public static class HelperFunctions
         //print(d);
         return d * direct.normalized + point;
     }
+
+    // *******************https://www.khronos.org/opengl/wiki/Calculating_a_Surface_Normal************************************
+    public static Vector3 CalculateSurfaceNormal(Vector3 p1, Vector3 p2, Vector3 p3)
+    {
+        Vector3 surfaceNormal = Vector3.up;
+
+        Vector3 u = p2 - p1;
+        Vector3 v = p3 - p1;
+
+        surfaceNormal = Vector3.Cross(u, v);
+
+        return surfaceNormal;
+    }
+
 }

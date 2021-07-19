@@ -33,19 +33,33 @@ public class NavMeshCreator : MonoBehaviour
         Vector2[] uvs = new Vector2[verts.Length];
         int[] tris = navMesh.Tris.ToArray();
         Vector3[] normals = new Vector3[navMesh.PointPositions.Count];
+        int[] numSurfacesPerVertex = new int[navMesh.PointPositions.Count];
 
-
-        for(int i = 0; i < navMesh.PointPositions.Count; i++)      //********FILL VERTS AND NORMALS***************
+        for (int i = 0; i < navMesh.PointPositions.Count; i++)      //********FILL VERTS AND NORMALS***************
         {
-            normals[i] = Vector3.up;
+            numSurfacesPerVertex[i] = 0;
 
-            uvs[i] = new Vector2(i/ (navMesh.PointPositions.Count-1), i / (navMesh.PointPositions.Count - 1));
+            uvs[i] = new Vector2(i / (navMesh.PointPositions.Count - 1), i / (navMesh.PointPositions.Count - 1));
         }
-        
-        //uvs[0] = new Vector2(0, 0);
-        //uvs[1] = new Vector2(0, .5f);
-        //uvs[2] = new Vector2(.5f, 0);
-        //uvs[2] = new Vector2(1, 1);
+
+        for (int i = 0; i < navMesh.Tris.Count/3; i++)
+        {
+            int triIndex = i * 3;
+            Vector3 surfNormal = HelperFunctions.CalculateSurfaceNormal(verts[tris[triIndex]], verts[tris[triIndex+1]], verts[tris[triIndex+2]]);
+
+            numSurfacesPerVertex[tris[triIndex]] += 1;
+            numSurfacesPerVertex[tris[triIndex+1]] += 1;
+            numSurfacesPerVertex[tris[triIndex+2]] += 1;
+
+            normals[tris[triIndex]] += surfNormal;
+            normals[tris[triIndex+1]] += surfNormal;
+            normals[tris[triIndex+2]] += surfNormal;
+        }
+
+        for (int i = 0; i < navMesh.PointPositions.Count; i++)      //********FILL VERTS AND NORMALS***************
+        {
+            normals[i] /= numSurfacesPerVertex[i];
+        }
 
         Mesh mesh = new Mesh();
         mesh.vertices = verts;
